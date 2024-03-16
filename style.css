@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy regular';
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#page1{
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+    padding: 0.1px;
+    overflow: hidden;
+}
+
+#nav{
+    width: 100%;
+    height: 10vh;
+    margin-top: 2vh;
+    padding: 2vh;
+    position: relative;
+    /* background-color: aqua; */
+} 
+
+#nav h1{
+    position: absolute;
+    left:5%;
+    font-weight: 900;
+}
+
+#nav h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#btw{
+    width: 100%;
+    height:20vh;
+    /* background-color: blue; */
+}
+
+#btw img{
+    position: absolute;
+    left: 70%;
+    scale: 1.4;
+    top: 10rem
+}
+
+#center{
+    width: 60%;
+    height: 30vh;
+    /* background-color: antiquewhite; */
+    padding: 3vw;
+}
+
+#center p{
+    font-size: 2.4vw;
+    font-weight: 700;
+}
+
+#search{
+    width: 100%;
+    height: 50vh;
+    /* background-color: red; */
+    padding-top: 10vh;
+}
+
+#search button{
+    font-size: 40px;
+    background-color: bisque;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    left: 25%;
+}
+
+#search button:hover{
+    background-color: #000;
+    color: bisque;
+}
+
+#page2{
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+    padding-left: 180px;
+    /* overflow: hidden; */
+}
+
+#page2 #form{
+    width: 300px;
+    height: 150px;
+    display: inline-block;
+    background-color: rgb(214, 156, 85);
+    margin: 20px;
+    padding: 30px;
+}
+
+#page2 #form label, input{
+    font-size: 20px;
+    margin: 18px;
+    font-family: 'gilroy regular';
+}
+
+#page2 #form label, input #rm{
+    /* font-size: 20px; */
+    margin: 1px;
+    /* font-family: 'gilroy regular'; */
+}
+
+#page2 .ch{
+    position: absolute;
+    left: 57%;
+}
+
+#output{
+    width: 100%;
+    padding: 8px;
+}
+
+#output p{
+    font-size: 40px;
+}
